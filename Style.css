@@ -19,6 +19,12 @@ html,body,form{
 .border{
     border-radius: 1;
 }
+.position{
+    position: absolute;
+}
+header{
+    position: relative;
+}
 header a{
    margin: 50px 20px;
    width: 45px;
@@ -26,7 +32,7 @@ header a{
    background-color: var(--rgb);
 }
 header span{
-    /* margin: 50px 20px; */
+    margin: 50px 90px;
     width: 45px;
     height: 45px;
     background-color: blue;
