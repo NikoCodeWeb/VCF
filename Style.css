@@ -1,0 +1,33 @@
+:root{
+    --rgb:rgb(240, 90, 4);
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(236, 236, 236);
+   direction: rtl;
+}
+html,body,form{
+    padding: 0px;
+    margin: 0px;
+    /* font-family:Arial, Helvetica, sans-serif; */
+}
+.block{
+    display: block;
+}
+.border{
+    border-radius: 1;
+}
+header a{
+   margin: 50px 20px;
+   width: 45px;
+   height: 45px;
+   background-color: var(--rgb);
+}
+header span{
+    /* margin: 50px 20px; */
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+}
