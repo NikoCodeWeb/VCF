@@ -1,5 +1,7 @@
 :root{
     --rgb:rgb(240, 90, 4);
+    --shadow: inset 3px 3px 3px #cdcdcd, inset -3px -3px 3px #fafafa ;
+    --pointer:pointer;
 }
 a{
     text-decoration: none;
@@ -17,7 +19,7 @@ html,body,form{
     display: block;
 }
 .border{
-    border-radius: 1;
+    border-radius: 1px;
 }
 .position{
     position: absolute;
@@ -25,15 +27,27 @@ html,body,form{
 header{
     position: relative;
 }
+.shadow{
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa ;
+}
 header a{
+    /* border-radius: 1px; */
    margin: 50px 20px;
    width: 45px;
    height: 45px;
    background-color: var(--rgb);
+}
+header a:hover{
+    box-shadow: var(--shadow);
+    cursor: var(--pointer);
 }
 header span{
     margin: 50px 90px;
     width: 45px;
     height: 45px;
     background-color: blue;
+}
+header span:hover{
+    box-shadow: var(--shadow);
+    cursor: var(--pointer);
 }
